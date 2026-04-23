@@ -137,8 +137,7 @@ with $\kappa = 0.15$ day$^{-1}$ (mean reversion),
 $\sigma = 3$ bps$/\sqrt{\text{day}}$ (daily volatility).
 
 *Carry P&L formula* — daily carry on notional $N$ at cash price $P$:
-$$\text{Daily P\&L} = S_t \times \frac{N \times P/100}{10{,}000}
-\times \frac{1}{360}$$
+$$\text{Daily P\&L} = S_t \times \frac{N \times P/100}{10{,}000} \times \frac{1}{360}$$
 
 **Part III — Sensitivity & Stress Tests**
 
