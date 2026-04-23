@@ -127,14 +127,14 @@ is modelled synthetically via a two-component framework:
 empirical ranges (ICMA ERCC 2022, IMF WP/18/258, ECB WP 2065):
 $$\mu(\tau) = \gamma + \alpha \cdot e^{-\beta\tau}$$
 
-with $\alpha = 120$ bps (peak component), $\beta = 0.04$ day$^{-1}$
+with $\alpha = 120$ bps (peak component), $\beta = 0.04 \text{ day}^{-1}$
 (acceleration speed), $\gamma = 2$ bps (far-from-expiry floor).
 
 *Stochastic dynamics (Euler-Maruyama discretisation)*:
 $$dS_t = \kappa(\mu(\tau_t) - S_t)dt + \sigma dW_t, \quad S_t \geq 0$$
 
-with $\kappa = 0.15$ day$^{-1}$ (mean reversion),
-$\sigma = 3$ bps$/\sqrt{\text{day}}$ (daily volatility).
+with $\kappa = 0.15 \text{ day}^{-1}$ (mean reversion),
+$\sigma = 3 \text{ bps}/\sqrt{\text{day}}$ (daily volatility).
 
 *Carry P&L formula* — daily carry on notional $N$ at cash price $P$:
 $$\text{Daily PnL} = S_t \times \frac{N \times P/100}{10{,}000} \times \frac{1}{360}$$
