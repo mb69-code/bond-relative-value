@@ -169,8 +169,8 @@ a CTD switch stress test across 4 macro/idiosyncratic scenarios.
 | CTD (FGBLM6) | DBR 2.5% Feb-35 (`DE000BU2Z049`) |
 | Current specialness (50d to expiry) | ~18 bps |
 | Projected at delivery | ~100 bps (mean), 93–108 bps (P10/P90) |
-| Trade: Entry 50d → Exit 10d, €10M | Mean P&L **€3,862** |
-| P10 / P90 | €3,455 / €4,267 |
+| Trade: Entry 50d → Exit 10d, €10M | Mean P&L **€3,853** |
+| P10 / P90 | €3,455 / €4,270 |
 | Most sensitive parameter | α (±20% → ±€724 P&L impact) |
 
 ---
